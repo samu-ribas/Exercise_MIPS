@@ -5,20 +5,33 @@
 # subtração precisa estar em $t3.
 
 
-	.data
-	prompt1: .asciiz "Valor em $t0 = "
-	prompt2: .asciiz "\nValor em $t1 = "
-	resSum:  .asciiz "\nSoma ($t1 + $t0) em $t2 = "
-	resSub:  .asciiz "\nSubtracao ($t1 - $t0) em $t3 = "
-	newline: .asciiz "\n"
+	.data 
+prompt1: .asciiz "Digite o valor para $t0: "
+prompt2: .asciiz "\nDigite o valor  de $t1: "
+resSum:  .asciiz "\nSoma ($t1 + $t0) em $t2 = "
+resSub:  .asciiz "\nSubtracao ($t1 - $t0) em $t3 = "
+newline: .asciiz "\n"
 
- .text
- .globl main
+.text			# começa a sessão executável
+
 
 main:
-        #  Inicializa exemplos
-        li $t0, 7          # exemplo: $t0 = 7
-        li $t1, 20         # exemplo: $t1 = 20
+	li $v0, 4			#print string
+        la $a0,  prompt1		# carrega o endereço da string prompt1 em $a0 (parâmetro para syscall)
+        syscall 			# executa syscall - imprime prompt1
+        
+        li $v0, 5			# syscall 5 = read_int (prepara leitura para um inteiro)
+	syscall				# lê um inteiro do teclado para $v0
+	move $t0, $v0			# move o inteiro lido ($v0) para $t1
+	
+	# agora faz a mesma coisa para o segundo valor
+	li $v0, 4		
+        la $a0,  prompt2	
+        syscall 		
+        
+        li $v0, 5		
+	syscall	
+	move $t1, $v0
 
         # Chama função que calcula soma
         jal add_func
@@ -27,60 +40,37 @@ main:
         jal sub_func
 
         # - Imprime valores para verificar
-        # imprime $t0
-        li $v0, 4
-        la $a0, prompt1
-        syscall
-        move $a0, $t0
-        li $v0, 1
-        syscall
-
-        # imprime $t1
-        li $v0, 4
-        la $a0, prompt2
-        syscall
-        move $a0, $t1
-        li $v0, 1
-        syscall
-
-        # imprime soma ($t2)
+        # Resultado da soma
         li $v0, 4
         la $a0, resSum
         syscall
-        move $a0, $t2
+        move $a0, $t2			# move o valor da soma ($t2) para $a0 (argumento para print_int)
         li $v0, 1
-        syscall
-
-        # imprime subtracao ($t3)
+        syscall				# executa a syscall — imprime o inteiro em $a0 (o valor de $t2)
+	
+	# Resultado da Sub
         li $v0, 4
         la $a0, resSub
         syscall
-        move $a0, $t3
+        move $a0, $t3			# move 
         li $v0, 1
         syscall
 
         # newline e fim
-        li $v0, 4
+        li $v0, 4			# syscall 4 = print string
         la $a0, newline
         syscall
 
-        li $v0, 10         # exit
+        li $v0, 10         		# exit (syscall 10 = término da função)
         syscall
-
-
-# add_func: calcula $t2 = $t1 + $t0
-# Uso: assume valores em $t0 e $t1 já definidos; retorna com $t2 preenchido
 
 add_func:
         add $t2, $t1, $t0
-        jr $ra
-
-# sub_func: calcula $t3 = $t1 - $t0
-# Uso: assume valores em $t0 e $t1 já definidos; retorna com $t3 preenchido
+        jr $ra				# retorna para o endereço salvo em $ra (fim da função)
 
 sub_func:
         sub $t3, $t1, $t0
-        jr $ra
+        jr $ra				# retorna para o endereço salvo em $ra (fim da função)
 
 	
 			
