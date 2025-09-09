@@ -1,0 +1,129 @@
+1. Quem desenvolveu a máquina analítica?
+
+A Máquina Analítica foi desenvolvida por Babbage em 1823. O objetivo do trabalho de Babbage era construir uma máquina programável
+As características da Máquina Analítica incluíam:
+• Possuía um programa que podia mudar o funcionamento da máquina.
+• Era de uso geral.
+• Tinha memória, processador, controle e saída.
+• Acrescentava a capacidade de desvio (JUMP).
+• Os programas eram escritos por Ada Lovelace.
+
+
+2. Ainda na época dos dispositivos mecânicos, um matemático e inventor foi contratado pela
+marinha britânica para construir uma máquina programável. Marque a alternativa correta:
+(a) Nesse momento, foi acrescentada a capacidade de desvio aos computadores;
+(b) O inventor se chamava Zuze e construiu um computador usando relés mecânicos;
+(c) O computador Colosus foi construído nessa época, mas a marinha só divulgou esta informação recentemente;
+(d) Foi introduzido o conceito de programa armazenado.
+
+Detalhando as alternativas:
+• (a) Nesse momento, foi acrescentada a capacidade de desvio aos computadores;
+    ◦ A Máquina Analítica de Babbage, desenvolvida em 1823, acrescentava a capacidade de desvio (JUMP). Isso aconteceu na época dos dispositivos mecânicos.
+
+• (b) O inventor se chamava Zuze e construiu um computador usando relés mecânicos;
+    ◦ O inventor contratado pela marinha britânica para construir uma máquina programável na época dos dispositivos mecânicos foi Babbage. Zuse construiu um computador usando relés mecânicos em 1935, na era dos dispositivos eletromecânicos.
+
+• (c) O computador Colosus foi construído nessa época, mas a marinha só divulgou esta informação recentemente;
+    ◦ O Colossus foi o primeiro computador eletrônico, construído por Alan Turing em 1943, pertencendo à era dos componentes eletrônicos (1930 – 1945), e não à dos dispositivos mecânicos.
+
+• (d) Foi introduzido o conceito de programa armazenado.
+    ◦ O conceito de programa armazenado foi introduzido por John Von Neumann com o IAS em 1946, na era dos componentes eletrônicos. A máquina de Babbage não incorporava essa ideia, armazenando programas em cartões perfurados separadamente dos dados
+
+A alternativa correta é a (a) Nesse momento, foi acrescentada a capacidade de desvio aos computadores.
+
+
+3. Qual foi a característica marcante do censo de 1890 dos EUA, no que se refere à contabilização dos dados levantados?
+
+No que se refere à contabilização dos dados levantados no período próximo ao censo de 1890 dos EUA, a característica marcante foi o uso de cartões perfurados por Hollerith para guardar dados.
+As máquinas desenvolvidas por Hollerith em 1889, já na era dos Dispositivos Eletromecânicos (1880–1930), podiam ordenar, classificar, contar e armazenar esses dados.
+
+
+4. Qual foi o propósito que conduziu ao desenvolvimento do primeiro computador eletrônico do
+mundo?
+
+O propósito que conduziu ao desenvolvimento do primeiro computador eletrônico do mundo, o Colossus, construído por Alan Turing em 1943, foi quebrar a criptografia alemã.
+Especificamente, o Colossus foi uma máquina desenhada para quebrar os códigos da máquina de Lorenz. Este esforço foi um passo importante para ajudar a terminar a Segunda Guerra Mundial a favor dos Aliados.
+
+
+5. Qual foi o primeiro microprocessador de 8 bits lançado comercialmente? Qual o nome da
+empresa proprietária?
+
+O primeiro microprocessador de 8 bits lançado comercialmente foi o Intel 8008, lançado em abril de 1972. Lançado pela inter corporation
+
+6. Quais eram as características básicas da arquitetura proposta por John von Neumann?
+
+As características básicas da arquitetura proposta por John von Neumann, desenvolvida no projeto de construção do computador IAS em 1946, definem o que hoje conhecemos como o modelo fundamental de um computador moderno.
+As principais características incluem:
+
+• Programa Armazenado: O grande diferencial e insight que separa o computador moderno das grandes calculadoras da época é o conceito de instruções de programa e dados convivendo em um mesmo espaço de memória e armazenamento. Diferente da Máquina de Babbage, onde programas eram armazenados em cartões perfurados separadamente dos dados, na arquitetura de Von Neumann, ambos compartilham o mesmo espaço.
+
+• Componentes Básicos de um Computador Eletrônico Digital Moderno: A arquitetura de Von Neumann especifica os seguintes elementos:
+    ◦ Uma unidade de processamento (CPU) que contém uma unidade lógica aritmética (ULA) e registradores de processo.
+    ◦ Uma unidade de controle (UC) que contém o registrador de instrução e o contador de programa.
+    ◦ Uma unidade de memória que pode armazenar tanto dados quanto instruções.
+    ◦ Armazenamento externo.
+    ◦ Mecanismos de entrada e saída (E/S).
+
+Essa descrição abrange o que hoje chamamos de CPU, RAM e outros componentes, sendo a base da arquitetura de hardware de todo computador moderno.
+
+in english: 
+
+1. Who developed the Analytical Engine?
+
+The Analytical Engine was developed by Babbage in 1823. The goal of Babbage's work was to build a programmable machine.
+The features of the Analytical Engine included:
+• It had a program that could change the machine's operation.
+• It was general-purpose.
+• It had memory, processor, control, and output.
+• It added jump capability.
+• The programs were written by Ada Lovelace.
+
+2. Still in the era of mechanical devices, a mathematician and inventor was hired by the British Navy to build a programmable machine. Select the correct alternative:
+(a) At this time, jump capability was added to computers;
+(b) The inventor's name was Zuze and he built a computer using mechanical relays;
+(c) The Colosus computer was built at this time, but the Navy only recently released this information;
+(d) The concept of stored programs was introduced.
+
+Detailing the alternatives:
+• (a) At this time, jump capability was added to computers;
+• Babbage's Analytical Engine, developed in 1823, added jump capability. This was during the era of mechanical devices.
+
+• (b) The inventor's name was Zuze, and he built a computer using mechanical relays;
+• Babbage was the inventor hired by the British Navy to build a programmable machine during the era of mechanical devices. Zuze built a computer using mechanical relays in 1935, during the era of electromechanical devices.
+
+• (c) The Colossus computer was built during this era, but the Navy only recently released this information;
+• Colossus was the first electronic computer, built by Alan Turing in 1943, belonging to the era of electronic components (1930–1945), not the era of mechanical devices.
+
+• (d) The concept of stored programs was introduced. ◦ The concept of stored programs was introduced by John Von Neumann with the IAS in 1946, in the era of electronic components. Babbage's machine did not incorporate this idea, storing programs on punched cards separately from the data.
+
+The correct answer is (a) At this time, bypass capability was added to computers.
+
+3. What was the defining feature of the 1890 US census, regarding the accounting of the data collected?
+
+Regarding the accounting of the data collected in the period surrounding the 1890 US census, the defining feature was Hollerith's use of punched cards to store data.
+The machines developed by Hollerith in 1889, already in the era of Electromechanical Devices (1880–1930), could sort, classify, count, and store this data.
+
+4. What was the purpose that led to the development of the world's first electronic computer?
+
+The purpose behind the development of the world's first electronic computer, the Colossus, built by Alan Turing in 1943, was to break German cryptography.
+Specifically, the Colossus was a machine designed to break the Lorenz machine codes. This effort was an important step in helping end World War II in favor of the Allies.
+
+5. What was the first commercially available 8-bit microprocessor? What was the name of the
+company that owned it?
+
+The first commercially available 8-bit microprocessor was the Intel 8008, released in April 1972. Released by Inter Corporation.
+
+6. What were the basic features of the architecture proposed by John von Neumann?
+
+The basic features of the architecture proposed by John von Neumann, developed in the IAS computer construction project in 1946, define what we now know as the fundamental model of a modern computer. The main features include:
+
+• Stored Program: The major difference and insight that separates the modern computer from the large calculators of the time is the concept of program instructions and data coexisting in the same memory and storage space. Unlike Babbage's Machine, where programs were stored on punched cards separately from the data, in the Von Neumann architecture, both share the same space.
+
+• Basic Components of a Modern Digital Electronic Computer: The Von Neumann architecture specifies the following elements:
+◦ A processing unit (CPU) containing an arithmetic logic unit (ALU) and process registers.
+◦ A control unit (CU) containing the instruction register and the program counter.
+◦ A memory unit that can store both data and instructions.
+◦ External storage.
+◦ Input/output (I/O) mechanisms.
+
+This description covers what we now call the CPU, RAM, and other components, which are the basis of the hardware architecture of every modern computer.
